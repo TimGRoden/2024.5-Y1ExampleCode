@@ -10,7 +10,40 @@ namespace _2024_5_First_Year_Live_Code
     {
         static void Main(string[] args)
         {
+            MazeEntity obj1 = new MazeEntity(5);
+            Console.WriteLine("Drawing MazeEntity:");
+            obj1.Draw();
 
+            MazePlayer obj2 = new MazePlayer(5);
+            Console.WriteLine("Drawing MazePlayer:");
+            obj2.Draw();
+
+            MazeEnemy obj3 = new MazeEnemy(5);
+            Console.WriteLine("Drawing MazeEnemy:");
+            obj3.Draw();
+
+            MazeEntity[] allThingsMazey = new MazeEntity[]
+            {
+                new MazeEntity(5),
+                new MazePlayer(5),
+                new MazeEnemy(5)
+            };
+            Console.WriteLine("Printing all 3 in the array:");
+            for (int i = 0; i < allThingsMazey.Length; i++) 
+            { 
+                (allThingsMazey[i]).Draw(); 
+            }
+            Console.WriteLine("Can we force MazeEntityBehaviour?");
+            for (int i = 0; i < allThingsMazey.Length; i++)
+            {
+                ForceMazeBehaviour(allThingsMazey[i]);
+            }
+
+            Console.ReadKey();
+        }
+        static void ForceMazeBehaviour(MazeEntity e)
+        {
+            e.Draw();
         }
     }
 }
