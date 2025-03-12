@@ -29,21 +29,12 @@ namespace _2024_5_First_Year_Live_Code
                 new MazeEnemy(5)
             };
             Console.WriteLine("Printing all 3 in the array:");
-            for (int i = 0; i < allThingsMazey.Length; i++) 
-            { 
-                (allThingsMazey[i]).Draw(); 
-            }
-            Console.WriteLine("Can we force MazeEntityBehaviour?");
             for (int i = 0; i < allThingsMazey.Length; i++)
-            {
-                ForceMazeBehaviour(allThingsMazey[i]);
+            { //Even when stored as 'MazeEntity', they use their own 'Draw' function
+                (allThingsMazey[i]).Draw();
             }
-
+            //Note: Without additional keywords, the new objects will always use their OWN '.Draw'
             Console.ReadKey();
-        }
-        static void ForceMazeBehaviour(MazeEntity e)
-        {
-            e.Draw();
         }
     }
 }
