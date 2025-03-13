@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L157 Subtype Polymorphism", "2024&5 First Year Live Code\L157 Subtype Polymorphism.csproj", "{AFAD4C81-5D0C-4BC1-8F0B-E1025ABF81D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L157 Subtype Polymorphism", "HalfTerm4Code\L157 Subtype Polymorphism.csproj", "{AFAD4C81-5D0C-4BC1-8F0B-E1025ABF81D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L159 Abstract Classes", "L159 Abstract Classes\L159 Abstract Classes.csproj", "{0E45AA67-F2F2-4F0A-91CF-750688469D46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AFAD4C81-5D0C-4BC1-8F0B-E1025ABF81D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFAD4C81-5D0C-4BC1-8F0B-E1025ABF81D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFAD4C81-5D0C-4BC1-8F0B-E1025ABF81D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E45AA67-F2F2-4F0A-91CF-750688469D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E45AA67-F2F2-4F0A-91CF-750688469D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E45AA67-F2F2-4F0A-91CF-750688469D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E45AA67-F2F2-4F0A-91CF-750688469D46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
