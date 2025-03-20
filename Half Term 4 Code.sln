@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L157 Subtype Polymorphism",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L159 Abstract Classes", "L159 Abstract Classes\L159 Abstract Classes.csproj", "{0E45AA67-F2F2-4F0A-91CF-750688469D46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L161 C# and SQL", "L161 C# and SQL\L161 C# and SQL.csproj", "{F48DD9A3-F189-42E2-81D2-E48DA3950CC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0E45AA67-F2F2-4F0A-91CF-750688469D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E45AA67-F2F2-4F0A-91CF-750688469D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E45AA67-F2F2-4F0A-91CF-750688469D46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F48DD9A3-F189-42E2-81D2-E48DA3950CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48DD9A3-F189-42E2-81D2-E48DA3950CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48DD9A3-F189-42E2-81D2-E48DA3950CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48DD9A3-F189-42E2-81D2-E48DA3950CC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
